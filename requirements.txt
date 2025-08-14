@@ -1,0 +1,37 @@
+Requirements for an AI Fairness Dashboard Project
+This file lists the Python packages needed to run an AI bias auditing tool.
+Install them using the command:
+pip install -r requirements.txt
+--- Core Data Science & ML ---
+For data manipulation and numerical operations
+numpy
+pandas
+
+The fundamental machine learning library for model building and evaluation
+scikit-learn
+
+--- AI Bias & Fairness Auditing Libraries ---
+An open-source toolkit from the Center for Data Science and Public Policy
+for auditing machine learning models for discrimination and bias.
+aequitas
+
+A popular open-source Python package that empowers developers of AI systems
+to assess their systems' fairness and mitigate any observed unfairness issues.
+fairlearn
+
+An extensible open-source library from IBM containing techniques
+to help detect and mitigate bias in machine learning models.
+aif360
+
+--- Visualization & Reporting ---
+For creating static, animated, and interactive visualizations and plots.
+matplotlib
+seaborn
+
+--- Web Dashboard & API (Optional) ---
+You can use one of these to create an interactive dashboard for your audit results.
+A fast and easy way to build and share data apps.
+streamlit
+
+A lightweight web framework to build a custom web interface or API.
+flask
